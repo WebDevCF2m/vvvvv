@@ -14,7 +14,8 @@
         ?>
     </nav>
 <div id="content">
-    <p>Bienvenue</p>
+    <p>A propos de moi</p>
+    <p><img src="img/moi.png" alt="moi"></p>
 </div>
     <footer>
     <?php
