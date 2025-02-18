@@ -7,6 +7,14 @@ if(isset($_GET['p'])){
             $title = "A propos de moi";
             include "../templates/aproposView.php";
             break;
+        case "history":
+            $title = "Mon histoire";
+            include "../templates/histoireView.php";
+            break;
+        case "contact":
+            $title = "Mon histoire";
+            include "../templates/histoireView.php";
+            break;
     }
 
 
