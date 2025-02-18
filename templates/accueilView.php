@@ -7,5 +7,14 @@
 </head>
 <body>
     <h1>Accueil</h1>
+    <nav>
+        <?php
+    include "inc/menuIncView.php";
+        ?>
+    </nav>
+
+    <footer>
+        Mikhawa @ <?=date("Y")?>
+    </footer>
 </body>
 </html>
