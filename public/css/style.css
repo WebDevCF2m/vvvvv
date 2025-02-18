@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(52, 155, 155);
+}
 ul{
     display: flex;
     list-style:none;

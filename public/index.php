@@ -12,8 +12,8 @@ if(isset($_GET['p'])){
             include "../templates/histoireView.php";
             break;
         case "contact":
-            $title = "Mon histoire";
-            include "../templates/histoireView.php";
+            $title = "Me contacter";
+            include "../templates/contactView.php";
             break;
     }
 
