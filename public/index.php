@@ -1,7 +1,13 @@
 <?php
 
 if(isset($_GET['p'])){
-    echo "rien";
+    
+    switch($_GET['p']){
+        case "aboutme":
+            $title = "A propos de moi";
+            include "../templates/aproposView.php";
+            break;
+    }
 
 
 }else{
