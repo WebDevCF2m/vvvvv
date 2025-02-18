@@ -15,6 +15,9 @@ if(isset($_GET['p'])){
             $title = "Me contacter";
             include "../templates/contactView.php";
             break;
+        default:
+            $title ="Erreur 404";
+            include "../templates/erreur404View.php";
     }
 
 
