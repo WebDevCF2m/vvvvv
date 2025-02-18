@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>accueil</title>
+    <title><?=$title?></title>
 </head>
 <body>
-    <h1>Accueil</h1>
+    <h1><?=$title?></h1>
     <nav>
         <?php
     include "inc/menuIncView.php";
         ?>
     </nav>
-
+<div id="content">
+    <p>Bienvenue</p>
+</div>
     <footer>
-        Mikhawa @ <?=date("Y")?>
+    <?php
+    include "inc/footerIncView.php";
+        ?>
     </footer>
 </body>
 </html>
