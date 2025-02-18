@@ -1,8 +1,15 @@
 <?php
 
+if(isset($_GET['p'])){
+    echo "rien";
 
 
-# homepage title
-$title = "Accueil";
-# homepage view
-include "../templates/accueilView.php";
+}else{
+    # homepage title
+    $title = "Accueil";
+    # homepage view
+    include "../templates/accueilView.php";
+
+}
+
+
