@@ -20,7 +20,6 @@ if(isset($_GET['p'])){
             include "../templates/erreur404View.php";
     }
 
-
 }else{
     # homepage title
     $title = "Accueil";
